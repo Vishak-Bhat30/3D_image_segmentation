@@ -14,6 +14,8 @@ The following example has the letter "E" it's RLE encoding is: "11 7 20 1 23 1 2
  
 ### Dataset:
 - The data is taken from the [kaggle compitition](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/data).
+<img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/c3b0965c-7bbf-4144-9a1d-95532ede7b88" width="200" />
+
 - The dataset is 3d x-ray scans of detached fragments of ancient papyrus scrolls.
 - The training data had 3 fragments.
 - It had the slices from the 3d x-ray surface volume. Each file contains a greyscale slice in the z-direction. Each fragment contains       65 slices. Combined this image stack gives us width * height * 65 number of voxels per fragment.
@@ -25,11 +27,15 @@ The following example has the letter "E" it's RLE encoding is: "11 7 20 1 23 1 2
  The 65 slices of the first fragment
  
 - The inklables were given which was a binary mask which showed 1 for the presense of the ink.
-  <img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/8e0f1b70-be98-4a6d-8668-78a551a83545" alt="labels" width="300" />
+
+
+  <img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/8e0f1b70-be98-4a6d-8668-78a551a83545" alt="labels" width="200" />
 
 
 - Further there was even the mask of the fragment which basically shows where the data is present in the fragment.
-  <img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/47fa9262-e9c0-4b9d-ba47-157053117633" alt="The 65 channels" width="300" />
+
+
+  <img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/47fa9262-e9c0-4b9d-ba47-157053117633" alt="The 65 channels" width="200" />
   
 ### Contents
 
