@@ -16,3 +16,8 @@
 - The calculated metric was fbeta score keeping the beta value 0.5
 - Was getting the CV score of single model around 63
 
+
+
+<img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/be5836b4-6fef-45c1-8ab9-b5371fbc354b" width="1000" />
+
+fig: the first image is the actual mask, the second one is the predicted mask, third one is the predicted mask after applying a threshhold 0.4
