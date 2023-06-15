@@ -15,6 +15,7 @@
 - trained for 15 epochs by keeping one of the 3 fragments as the cross validation 
 - The calculated metric was fbeta score keeping the beta value 0.5
 - Was getting the CV score of single model around 63
+- used the weighted loss of dice loss and the Tversky loss and BCE loss
 
 
 
