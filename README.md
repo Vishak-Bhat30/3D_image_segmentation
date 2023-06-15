@@ -70,3 +70,22 @@ The following example has the letter "E" it's RLE encoding is: "11 7 20 1 23 1 2
 <img src="https://github.com/Vishak-Bhat30/3D_image_segmentation/assets/102585626/be5836b4-6fef-45c1-8ab9-b5371fbc354b" width="1000" />
 
 fig: the first image is the actual mask, the second one is the predicted mask, third one is the predicted mask after applying a threshhold 0.4
+
+
+### Inference Time
+
+#### Ensembles
+
+- Did the ensembles of different models trained, tried average ensemble.
+- Ensembling the models increased the fbeta score from 65 to 74.
+- Tried weighted ensembles tooo
+
+#### TTA
+
+- Performed TTA(Test Time Augmentations) during the final inference.
+
+#### 8 Channels average score
+
+- So took the 8 channels and then predicted the output for the 1-3 , 4-6 , 6-8 channels and took the average of the predictions
+
+
